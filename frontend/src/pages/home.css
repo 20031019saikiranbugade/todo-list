@@ -1,0 +1,54 @@
+.box {
+    border-radius: 8px;
+    margin-top: 50px !important;
+    margin-bottom: 40px !important;
+    width: 50% !important;
+    background-color: white !important;
+    padding: 40px;
+}
+
+.btn {
+    border: none;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+h4 span {
+    font-size: 50px;
+}
+
+.edit , .save{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.list-box {
+    border: 1px solid grey;
+    margin-top: 15px;
+    padding: 7px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .box {
+        width: 70% !important;
+    }
+}
+  @media only screen and (max-width: 1000px) {
+    .box {
+        width: 50% !important;
+    }
+}
+
+  @media only screen and (max-width: 560px) {
+    .box {
+        width: 60% !important;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .box {
+        width: 100% !important;
+    }
+  }
